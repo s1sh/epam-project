@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: epam-project/app:latest
+    image: epam-app
     ports:
       - "8000:8000"
