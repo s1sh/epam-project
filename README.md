@@ -1,16 +1,18 @@
-# node-todo-cicd
+# Epam Project
 
-Run these commands:
-
-
-`sudo apt install nodejs`
+CICD pipeline using jenkins and CodePipeline to deploy a nodejs app in docker container on aws ec2
 
 
-`sudo apt install npm`
 
 
-`npm install`
 
-`node app.js`
+## Tools used
+
+- Terraform - for creating s3 bucket,roles and ec2    
+- SSH - for installing and configure jenkins in ec2
+- AWS CodePipeline - for fetching code from github by push trigger and deploying to s3 bucket
+- AWS SQS - for creating a trigger for jenkins from s3 bucket object creation alarm
+- jenkins - for fetcing code from s3 build and deploying docker
+- Docker  - for creating a nodejs application container
 
 
