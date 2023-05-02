@@ -1,2 +1,19 @@
-# epam-project
-repository for my epam final project
+# node-todo-cicd
+
+Run these commands:
+
+
+`sudo apt install nodejs`
+
+
+`sudo apt install npm`
+
+
+`npm install`
+
+`node app.js`
+
+or Run by docker compose
+
+test
+
